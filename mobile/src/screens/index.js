@@ -48,7 +48,7 @@ const AppNavigator = createSwitchNavigator(
     Splash: {
       getScreen: () => require('./SplashScreen').default,
     },
-    // Auth: AuthNavigator,
+    Auth: AuthNavigator,
     Main: MainNavigator,
   },
   {

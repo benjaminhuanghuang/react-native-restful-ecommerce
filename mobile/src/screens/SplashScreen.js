@@ -8,13 +8,19 @@ import { Box, Text } from 'react-native-design-utility';
 class SplashScreen extends Component {
   state = {};
 
-  // componentDidMount() {
-  //   this.checkAuth();
-  // }
+  componentDidMount() {
+    this.checkAuth();
+  }
 
-  // checkAuth = async () => {
-  //   await this.props.authStore.setupAuth();
-  // };
+  checkAuth_bk = async () => {
+    await this.props.authStore.setupAuth();
+  };
+
+  checkAuth = () => {
+    setTimeout(() => {
+      this.props.navigation.navigate('Auth');
+    }, 3000);
+  };
 
   render() {
     return (

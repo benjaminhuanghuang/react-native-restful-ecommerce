@@ -14,15 +14,6 @@ class LoginScreen extends Component {
 
 
   render() {
-    const { opacity } = this.state;
-
-    const logoTranslate = this.state.position.interpolate({
-      inputRange: [0, 1],
-      outputRange: [150, 0],
-    });
-
-    console.log('props', this.props);
-
     return (
       <Box f={1} center bg="white">
         <Text>Log in</Text>
