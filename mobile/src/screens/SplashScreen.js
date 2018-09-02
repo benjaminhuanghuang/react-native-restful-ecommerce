@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Box, Text } from 'react-native-design-utility';
 
-// import OnboardingLogo from '../commons/OnboardingLogo';
+import OnboardingLogo from '../commons/OnboardingLogo';
 // import { NavigationService } from '../api/NavigationService';
 
 // @inject('authStore')
@@ -25,7 +25,7 @@ class SplashScreen extends Component {
   render() {
     return (
       <Box f={1} center>
-        <Text>Splash</Text>
+        <OnboardingLogo />
       </Box>
     );
   }
