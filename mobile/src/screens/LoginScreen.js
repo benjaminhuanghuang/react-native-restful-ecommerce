@@ -27,7 +27,7 @@ class LoginScreen extends Component {
       delay: 100,
     }).start();
   };
-  
+
   positionAnim = () => {
     Animated.timing(this.state.position, {
       toValue: 1,
