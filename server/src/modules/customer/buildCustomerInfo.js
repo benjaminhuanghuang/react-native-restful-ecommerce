@@ -1,5 +1,5 @@
 export const buildCustomerInfo = (info, providerName) => {
-  let user = {
+  const user = {
     email: '',
     firstName: '',
     lastName: '',

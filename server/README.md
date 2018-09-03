@@ -14,5 +14,11 @@ support new javascirp
 ```
 utilities
 ```
-  npm i cross-env nodemon -D
+  npm i cross-env nodemon yup -D
 ```
+yup is used for json request validation.
+
+
+## Auth
+- Log in to provider(Facebook/ Google) to get a token
+- Use this token to get user infomation and save it into database, return jwt token
