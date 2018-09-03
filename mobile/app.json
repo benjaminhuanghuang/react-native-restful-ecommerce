@@ -1,5 +1,14 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+    "sdkVersion": "27.0.0",
+    "facebookAppId": "269347603675472",
+    "facebookScheme": "fb269347603675472",
+    "facebookDisplayName": "Test",
+    "extra": {
+      "googleAppId": {
+        "ios": "245652154526-oou2jue8h33tm1k637uggto26oajhqb9.apps.googleusercontent.com",
+        "android": "245652154526-21v6mnn51njrfisboec0u21v9jrfmmnh.apps.googleusercontent.com"
+      }
+    }
   }
 }
