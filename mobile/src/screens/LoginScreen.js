@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Box, Text } from 'react-native-design-utility';
 import { TouchableOpacity, Alert, Animated } from 'react-native';
+import { inject } from 'mobx-react/native';
 
 import OnboardingLogo from '../commons/OnboardingLogo';
 import LoginButton from '../commons/LoginButton';
@@ -9,7 +10,7 @@ import { GoogleApi } from '../api/Google';
 
 const BoxAnimated = Animated.createAnimatedComponent(Box);
 
-// @inject('authStore')
+@inject('authStore')
 class LoginScreen extends Component {
   state = {
     opacity: new Animated.Value(0),

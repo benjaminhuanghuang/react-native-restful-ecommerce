@@ -2,6 +2,7 @@ import Customer from './customer.model';
 import { buildCustomerInfo } from './buildCustomerInfo';
 import { AuthServices } from '../../services/Auth';
 
+// middleware
 export const customerAuth = async (req, res, next) => {
   const token = AuthServices.getTokenFromHeaders(req);
 
