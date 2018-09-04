@@ -28,3 +28,9 @@ Android:
 Create test user on the Facebook developers daskboard: uiqujffnex_1535955910@tfbnw.net
 
 ## react-native-debugger
+
+
+## Mobx
+```
+  npm i mobx mobx-react mobx-state-tree -S
+```
